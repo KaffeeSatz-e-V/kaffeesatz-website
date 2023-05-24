@@ -1,4 +1,15 @@
-# KaffeesatzDonationWebsite
+# KaffeeSatz Website
+
+## Setup on your local machine
+
+```shell
+git clone git@github.com:KaffeeSatz-e-V/kaffeesatz-website.git
+kaffeesatz-website
+git flow init
+npm install -g @angular/cli
+npm install
+ng serve --configuration development
+```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
