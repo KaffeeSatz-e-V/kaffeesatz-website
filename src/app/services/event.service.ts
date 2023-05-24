@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment';
 })
 export class EventService {
 
-  eventUrl = environment.eventhost + "/events.php";
+  eventUrl = environment.eventhost + "/events.php" + "?time=" + Date.now();
 
   constructor(private http: HttpClient) {}
 
